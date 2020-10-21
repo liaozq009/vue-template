@@ -1,0 +1,32 @@
+<template>
+  <div class="about">
+    <hello-world></hello-world>
+  </div>
+</template>
+<script>
+// @ is an alias to /src
+import HelloWorld from '@/components/HelloWorld.vue'
+
+export default {
+  name: 'about',
+  data(){
+    return {
+
+    }
+  },
+  components: {
+    HelloWorld
+  },
+  mounted(){
+   
+  },
+  methods:{
+
+  }
+}
+</script>
+<style lang="less">
+  h1{
+    // color:@theme;
+  }
+</style>
