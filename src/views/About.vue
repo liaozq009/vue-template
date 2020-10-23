@@ -26,7 +26,5 @@ export default {
 }
 </script>
 <style lang="less">
-  h1{
-    // color:@theme;
-  }
+  
 </style>

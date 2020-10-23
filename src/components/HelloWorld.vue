@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>我是一个H5页面</h1>
     <van-button type="primary">主要按钮</van-button>
+    <van-button type="danger">主要按钮</van-button>
     <!-- 将该组件绑定到 this.$refs.checkbox 上 -->
     <!-- <van-checkbox v-model="checked" ref="checkbox">
       复选框
@@ -39,9 +40,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="less">
-.hello {
-  h1 {
-    font-size: 30px;
-  }
+h1 {
+  font-size: 30px;
+  color: @theme;
 }
 </style>

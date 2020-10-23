@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     首页
+    <van-switch v-model="checked" />
   </div>
 </template>
 
@@ -14,7 +15,7 @@ export default {
   name: 'Home',
   data(){
     return {
-      
+      checked: true,
     }
   },
   components: {

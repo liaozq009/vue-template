@@ -9,13 +9,15 @@ import {
   Button,
   Tabbar,
   TabbarItem,
-  Checkbox
+  Checkbox,
+  Switch
 } from "vant";
 
 Vue.use(Button);
 Vue.use(Tabbar);
 Vue.use(TabbarItem)
 Vue.use(Checkbox)
+Vue.use(Switch)
 
 Vue.config.productionTip = false;
 
